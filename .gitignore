@@ -1,3 +1,6 @@
+.docker/db
+.docker/apache/server.pem
+.docker/apache/server-key.pem
 vendor
 storage/cache/*
 storage/logs/*
