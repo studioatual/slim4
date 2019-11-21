@@ -1,0 +1,25 @@
+{
+  "name": "studioatual/slim4",
+  "description": "Slim Framework 4",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Studio Atual",
+      "email": "contato@studioatual.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "^4.3",
+    "slim/psr7": "^0.6.0",
+    "php-di/php-di": "^6.0",
+    "monolog/monolog": "^2.0",
+    "illuminate/database": "^6.5",
+    "illuminate/pagination": "^6.5",
+    "vlucas/phpdotenv": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "StudioAtual\\": "app"
+    }
+  }
+}
