@@ -20,4 +20,6 @@ $container = $containerBuilder->build();
 AppFactory::setContainer($container);
 $app = AppFactory::create();
 
+require __DIR__ . '/render.php'; 
+
 require __DIR__ . '/../routes/web.php';

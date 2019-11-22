@@ -17,7 +17,8 @@ class HomeController extends Controller
         /* Logs with Warning */
         $this->container->get('logger')->warning(json_encode(['message' => 'Alert 123']));
 
-        $response->getBody()->write('Hello world!');
-        return $response;
+        return $this->view->render($response, 'home.twig', ['title' => 'Hello World!']);
+        //$response->getBody()->write('Hello world!');
+        //return $response;
     }
 }
